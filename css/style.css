@@ -127,6 +127,7 @@ html {
   .main-title {
     /* margin: 0;
     padding: 0; */
+    margin-bottom: 35px;
     color: #161513;
     font-family: Bai Jamjuree;
     font-size: 54px;
@@ -135,8 +136,59 @@ html {
     line-height: 64px; /* 114.286% */
     letter-spacing: 0.56px;
     /* padding-left: 80px; */
-    
   }
+
+  .main-descr-title {
+    color: #161513;
+    font-family: Bai Jamjuree;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 139.13% */
+    letter-spacing: 0.48px;
+    margin-bottom: 40px;
+  }
+  
+  .main-descr-img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+
+  .main-descr-btn-left {
+    margin: 0;
+    padding: 12px 32px 12px 32px;
+    color: #161513;
+    font-family: Bai Jamjuree;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 1px solid #161513;
+    background-color: #fff;
+    margin-right: 20px;
+  }
+  .main-descr-btn-left:hover{
+    color: #fff;
+    background-color: #161513
+  } 
+
+  .main-descr-btn-right {
+    margin: 0;
+    padding: 12px 32px 12px 32px;
+    color: #161513;
+    font-family: Bai Jamjuree;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 1px solid #161513;
+    background-color: #fff;
+    margin-right: 20px;
+  }
+
+  .main-descr-btn-right:hover{
+    color: #fff;
+    background-color: #161513
+  } 
   
   .maint-portrait-image {
     width: 562px;
