@@ -32,17 +32,12 @@ ul {
 }
 
 .header {
-  /* display: flex; */
-  max-width: 1440px;
-  /* align-items: center;
-    justify-content: center; */
+  max-width: 1280px;
   background-color: #f2f1ef;
-  /* justify-content: space-around; */
-  /* border: 1px solid black; */
   margin-top: 30px;
-  margin-bottom: 50px;
-  /* gap: 200px; */
+  margin-bottom: 30px;
 }
+
 .container {
   display: flex;
   margin: 0 auto;
@@ -53,12 +48,8 @@ ul {
 }
 
 .logo-link {
-  display: flex;
   align-items: center;
-  justify-content: space-around;
   gap: 10px;
-  font-family: Bai Jamjuree;
-  /* border: 1px solid black; */
 }
 
 .logo {
@@ -68,24 +59,14 @@ ul {
 }
 
 .menu-list {
-  /* margin: 0;
-    padding: 0; */
-  display: flex;
-  list-style: none;
-  /* justify-content: center; */
-  justify-content: space-between;
-  /* padding-right: 400px; */
-  gap: 30px;
-  /* border: 1px solid black; */
+  margin: 0;
+  gap: 80px;
 }
 
 .menu-item-link {
-  /* width: 44px; */
   color: #161513;
   text-align: center;
-  font-family: Bai Jamjuree;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
   border-bottom: 1px solid #131416;
@@ -101,7 +82,6 @@ ul {
 .menu-link-talk {
   padding: 8px 25px 8px 25px;
   color: #161513;
-  font-family: Bai Jamjuree;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -115,36 +95,41 @@ ul {
 }
 
 .main {
-  max-width: 1440px;
+  max-width: 1280px;
 }
 
+/*! SLIDER HEADER */
 .container-main {
   margin: 0 auto;
-  display: flex;
-  width: 1280px;
-  justify-content: space-around;
+  max-width: 1280px;
+  justify-content: center;
   align-items: center;
-  /* gap: 100px; */
 }
+
+.main-card-left {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .main-title {
-  /* margin: 0;
-    padding: 0; */
+  margin: 0;
   margin-bottom: 35px;
   color: #161513;
-  font-family: Bai Jamjuree;
-  font-size: 54px;
-  font-style: normal;
+  font-size: 44px;
   font-weight: 400;
   line-height: 64px; /* 114.286% */
   letter-spacing: 0.56px;
-  /* padding-left: 80px; */
+}
+
+.main-descr {
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .main-descr-title {
+  margin: 0;
   color: #161513;
-  font-family: Bai Jamjuree;
   font-size: 23px;
-  font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 139.13% */
   letter-spacing: 0.48px;
@@ -161,7 +146,6 @@ ul {
   margin: 0;
   padding: 12px 32px 12px 32px;
   color: #161513;
-  font-family: Bai Jamjuree;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -178,7 +162,6 @@ ul {
   margin: 0;
   padding: 12px 32px 12px 32px;
   color: #161513;
-  font-family: Bai Jamjuree;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -193,12 +176,11 @@ ul {
 }
 
 .maint-portrait-image {
-  width: 400px; /*TODO: 307px original */
-  height: 400px;
+  width: 430px; /*TODO: 307px original */
+  height: 330px;
   object-fit: cover;
   background-repeat: no-repeat;
   margin-bottom: 100px;
-  /* justify-content: space-between; */
 }
 
 .main-text-img {
@@ -207,28 +189,24 @@ ul {
   object-fit: cover;
 }
 
+/*! BEG STROKA */
 .beg {
-  /* display: flex; */
   margin: 0 auto;
   max-width: 1280px;
-  /* justify-content: space-around;
-    align-items: center; */
 }
 
 .beg-title-list {
-  display: flex;
-  justify-content: space-around;
+  margin: 0;
+  height: 44px;
+  justify-content: center;
   align-items: center;
-  /* gap: 10px; */
   background-color: #161513;
-  /* border-radius: 50px; */
 }
 
 .beg-item-descr {
-  padding: 0;
+  margin: 0;
   padding: 0 20px;
   color: #fff;
-  font-family: Bai Jamjuree;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px; /* 177.778% */
@@ -238,8 +216,9 @@ ul {
   color: #e94d35;
 }
 
+
+/*! ABOUT-US */
 .about-us {
-  display: flex;
   margin: 0 auto;
   max-width: 1280px;
   padding-top: 100px;
@@ -248,31 +227,25 @@ ul {
 }
 
 .about-us-left-card {
-  display: flex;
-  width: 408px;
-  height: 304px;
+  max-width: 408px;
+  /* height: 304px; */
   padding-bottom: 0px;
   flex-direction: column;
   align-items: flex-start;
   gap: 21.5px;
-  /* outline: 1px solid #E94D35; */
+
 }
 .about-us-left-card-descr {
-  /* display: block; */
   margin: 0;
-  font-family: Bai Jamjuree;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 139.13% */
   letter-spacing: 0.48px;
   color: #161513;
 }
 .about-us-left-card-title {
-  padding: 0;
   margin: 0;
   color: #161513;
-  font-family: Bai Jamjuree;
   font-size: 56px;
   font-weight: 400;
   line-height: 64px; /* 114.286% */
@@ -280,17 +253,15 @@ ul {
 }
 
 .about-us-right-card {
-  width: 612px;
-  height: 304px;
-  /* outline: 1px solid #E94D35; */
+  max-width: 612px;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .about-us-right-card-title {
   margin: 0;
-  /* padding: 0; */
   margin-bottom: 36px;
   color: #161513;
-  font-family: Bai Jamjuree;
   font-size: 31px;
   font-weight: 400;
   line-height: 40px; /* 129.032% */
@@ -301,27 +272,22 @@ ul {
   margin: 0;
   margin-bottom: 20px;
   color: #161513;
-  font-family: Bai Jamjuree;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px; /* 177.778% */
 }
 
 .about-us-right-list {
-  display: flex;
   margin: 0;
   padding: 0;
-  justify-content: center;
   align-items: center;
-  gap: 130px;
+  gap: 100px;
 }
 
 .list-item-text {
   margin: 0;
   color: #e94d35;
-  font-family: Bai Jamjuree;
   font-size: 12px;
-  font-style: normal;
   font-weight: 400;
   line-height: 16px; /* 133.333% */
 }
@@ -329,9 +295,7 @@ ul {
 .list-item-descr {
   margin: 0;
   color: #161513;
-  font-family: Bai Jamjuree;
   font-size: 23px;
-  font-style: normal;
   font-weight: 400;
   line-height: 32px; /* 139.13% */
   letter-spacing: 0.48px;
@@ -340,9 +304,8 @@ ul {
 /*! Awards */
 
 .awards {
-  display: flex;
   margin: 0 auto;
-  min-width: 1280px;
+  max-width: 1280px;
   padding-top: 100px;
   padding-bottom: 140px;
   justify-content: center;
@@ -353,12 +316,9 @@ ul {
   margin: 0;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   border: 1px solid #161513;
   min-width: 352px;
   padding: 21.5px 72px 23.5px 72px;
-
-  /* gap: 11px; */
 }
 
 .adwards-skills-link-item {
@@ -378,11 +338,6 @@ ul {
   letter-spacing: 1.28px;
   text-transform: uppercase;
 }
-
-/* .adwards-skills-link:hover {
-  color: #fff;
-  background-color: #161513;
-} */
 
 .skills-link-black {
   color: #fff;
@@ -479,6 +434,7 @@ ul {
   height: 307px;
   border: 1px solid #161513;
   border-radius: 20px;
+  object-fit: cover;
   /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */

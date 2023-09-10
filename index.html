@@ -13,45 +13,50 @@
       rel="stylesheet"
     />
     <link href="/assets/css/fontawesome.css" rel="stylesheet">
-  <link href="/assets/css/brands.css" rel="stylesheet">
-  <link href="/assets/css/solid.css" rel="stylesheet">
+    <link href="/assets/css/brands.css" rel="stylesheet">
+    <link href="/assets/css/solid.css" rel="stylesheet">
 
+
+    <!--! HEADER -->
   </head>
   <body>
     <header class="header">
       <container class="container">
-        <a href="#" class="logo-link">
+        <a href="#" class="logo-link flex">
           <img class="logo" src="img/logo.png" alt="Logo devdata" />
-          DevData
+          DevData.org
         </a>
         <nav class="header-navigation">
-          <ul class="menu-list">
+          <ul class="menu-list flex">
             <li class="menu-item">
               <a href="#" class="menu-item-link"> Home </a>
             </li>
             <li class="menu-item">
-              <a href="#" class="menu-item-link"> About </a>
+              <a href="#about" class="menu-item-link"> About </a>
             </li>
             <li class="menu-item">
-              <a href="#" class="menu-item-link"> Contact </a>
+              <a href="#portfolio" class="menu-item-link"> Portfolio </a>
+            </li>
+            <li class="menu-item">
+              <a href="#contact" class="menu-item-link"> Contact </a>
             </li>
           </ul>
         </nav>
-        <a class="menu-link-talk" href="#"> Lets Talk </a>
+        <a class="menu-link-talk" href="https://t.me/artempmbi"> Let's talk </a>
       </container>
     </header>
 
     <main class="main">
-      <container class="container-main">
-        <div class="main-card-left">
+      <container class="container-main flex">
+        <div class="main-card-left flex">
           <h1 class="main-title">
-            HI, I’M TAYLER. <br />
+            HI, I’M ARTEM. <br />
             A CREATIVE
             <img class="main-text-img" src="img/main-text.png" alt="" />
-            DESIGNER <br />
-            BASED IN LONDON
+            FRONT-END <br />
+            DEVELOPER
           </h1>
-          <div class="main-descr">
+          <div class="main-descr flex">
             <h2 class="main-descr-title">
               DESIGN
               <img class="main-descr-img" src="img/main-text.png" alt="" />
@@ -59,75 +64,90 @@
               <img class="main-descr-img" src="img/main-text.png" alt="" />
               WEBFLOW
             </h2>
-            <a href="#" class="main-descr-btn-left"> Got a project? </a>
-            <a href="#" class="main-descr-btn-right"> Let's talk. </a>
+            <div class="main-buttons-group flex">
+              <a href="#portfolio" class="main-descr-btn-left"> Got a project? </a>
+              <a href="https://t.me/artempmbi" class="main-descr-btn-right"> Let's talk. </a>
+            </div>
           </div>
         </div>
         <div class="main-card-right">
           <img class="maint-portrait-image" src="img/avatar-mac-book.png" alt="" />
         </div>
       </container>
+      <!--! BEG STROKA -->
       <container class="beg">
         <div class="main-card-beg-title">
-          <ul class="beg-title-list">
+          <ul class="beg-title-list flex">
             <li class="beg-title-item">
-              <p class="beg-item-descr">DEVELOPMENT</p>
+              <p class="beg-item-descr">HTML CSS</p>
             </li>
             <li class="geg-title-item">
-              <p class="beg-item-descr">STRATEGY</p>
+              <p class="beg-item-descr">JAVASCRIPT</p>
             </li>
             <li class="geg-title-item">
-              <p class="beg-item-descr">PRODUCT DESIGN</p>
+              <p class="beg-item-descr">REACT</p>
             </li>
             <li class="geg-title-item">
-              <p class="beg-item-descr">MOTION GRAPHIC</p>
+              <p class="beg-item-descr">BOOTSTRAP</p>
             </li>
             <li class="geg-title-item">
-              <p class="beg-item-descr">ART DIRECTION</p>
+              <p class="beg-item-descr">TYPESCRIPT</p>
             </li>
             <li class="geg-title-item">
-              <p class="beg-item-descr">ART DIRECTION</p>
+              <p class="beg-item-descr">MONGODB</p>
             </li>
             <li class="geg-title-item">
-              <p class="beg-item-descr">BRANDING</p>
+              <p class="beg-item-descr">SASS</p>
+            </li>
+            <li class="geg-title-item">
+              <p class="beg-item-descr">WEBPACK</p>
+            </li>
+            <li class="geg-title-item">
+              <p class="beg-item-descr">AGILE</p>
+            </li>
+            <li class="geg-title-item">
+              <p class="beg-item-descr">JIRA</p>
             </li>
           </ul>
         </div>
       </container>
-      <container class="about-us">
-        <div class="about-us-left-card">
-          <p class="about-us-left-card-descr">TAYLER BARTHHOLD</p>
+
+      <!--! ABOUT US -->
+      <container class="about-us flex" id="about">
+        <div class="about-us-left-card flex">
+          <p class="about-us-left-card-descr">DEVDATA PROJECT</p>
           <h2 class="about-us-left-card-title">
-            Lead product designer and art director.
+            Lead product designer and front-end developer
           </h2>
         </div>
-        <div class="about-us-right-card">
+        <div class="about-us-right-card flex">
           <h2 class="about-us-right-card-title">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore
+            I specialize in creating cutting-edge and conversion websites.
+            The website I created will be convenient, practical and fulfill the assigned tasks.
           </h2>
           <p class="about-us-right-card-descr">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Modern website design and its functionality, focused on the best European projects,
+            is very important in order to persuade the user to stay on the site and turn from
+            a lead into a client.
           </p>
-          <ul class="about-us-right-list">
+          <ul class="about-us-right-list flex">
             <li class="about-us-list-item">
-              <p class="list-item-text">BORN IN</p>
-              <p class="list-item-descr">New York</p>
+              <p class="list-item-text"> DESIGN DEVELOPMENT</p>
+              <p class="list-item-descr">3+ Years</p>
             </li>
             <li class="about-us-list-item">
-              <p class="list-item-text">EXPERIENCE</p>
-              <p class="list-item-descr">7+ Years</p>
+              <p class="list-item-text">DEVELOPMENT</p>
+              <p class="list-item-descr">2+ Years</p>
             </li>
             <li class="about-us-list-item">
-              <p class="list-item-text">DATE OF BIRTH</p>
-              <p class="list-item-descr">27 June 1992</p>
+              <p class="list-item-text">PROGRAMMING</p>
+              <p class="list-item-descr">2+ Years</p>
             </li>
           </ul>
         </div>
       </container>
       <!--! ==============Awards===============-->
-      <container class="awards">
+      <container class="awards flex">
         <div class="adwards-skills flex">
           <div class="adwards-skills-link flex">
             <p class="adwards-skills-link-item">2+</p>
@@ -205,7 +225,7 @@
         </div>
       </container>
       <!--! PORTFOLIO -->
-      <container class="container">
+      <container class="container" id="portfolio">
         <div class="portfolio flex">
           <h2 class="portfolio-title">
             PORTFOLIO
@@ -288,7 +308,7 @@
         </div>
       </container>
     </main>
-    <footer class="footer flex">
+    <footer class="footer flex" id="contact">
       
       <div class="footer-social-icons flex">
         <i class="fa-brands fa-github fa-beat" style="color: #ffffff;"></i>
