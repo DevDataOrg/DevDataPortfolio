@@ -1,0 +1,134 @@
+/* .skills-cards-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* .skills-cards-box {
+  margin: 0 auto;
+  padding-top: 50px;
+  /* flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
+  /* max-width: 1200px; */
+}
+
+.skills-title-box {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-cards-title-h2 {
+  margin: 0;
+  padding: 0;
+  color: #161513;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 56px; /* 124.444% */
+  letter-spacing: 1.44px;
+  margin-bottom: 18px;
+}
+
+.skills-cards-descr-p2 {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  margin-bottom: 18px;
+  color: #161513;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+}
+
+.box {
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+}
+
+.skills-cards {
+  /* margin: 0 auto; */
+  padding: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  max-width: 512px;
+  /* height: 256px; */
+  /* justify-content: center; */
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 40px;
+  box-sizing: border-box; 
+  background-color: #f2f1ef;  /*TODO: change background color grey */
+  
+}
+
+.skills-cards:hover {
+  background-color: #fff; /*TODO: change background color grey */
+  box-shadow: 15px 15px 21px 7px rgba(34, 60, 80, 0.69); 
+}
+
+.skills-cards-title {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  height: 44px;
+  color: #161513;
+}
+
+.skills-cards-list {
+  margin: 0;
+  padding: 0;
+  /* height: 256px;
+  width: 256px; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills-cards-item {
+  margin: 0;
+  padding: 0;
+  /* margin-right: 16px; */
+  margin-bottom: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 160px;
+  border: 1px solid #dadada;
+  border-radius: 20px;
+  box-sizing: border-box;
+  /* box-shadow: 15px 15px 21px 7px rgba(34, 60, 80, 0.69); */
+  object-fit: cover; 
+}
+
+
+.skills-cards-item:hover {
+  border: 1px solid #e94d35;
+  box-shadow: 15px 15px 21px 7px rgba(34, 60, 80, 0.69); 
+}
+
+
+.skills-cards-image {
+  padding: 0;
+  margin: 0;
+  width: 64px;
+  height: 64px;
+}
+
+.skills-cards-descr {
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  font-size: 16px;
+  color: #161513;
+} */

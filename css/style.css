@@ -45,8 +45,10 @@ ul {
   margin-bottom: 30px;
 }
 .header-container {
+  /* margin: 0 auto; */
   justify-content: space-around;
   align-items: center;
+  /* max-width: 1300px; */
   /* gap: 200px; */
 }
 /* .container {
@@ -111,7 +113,7 @@ ul {
 } */
 
 /*! SLIDER HEADER */
-.container {
+.main-slider {
   justify-content: center;
   align-items: center;
 }
@@ -314,27 +316,13 @@ ul {
 
 /*! SKILLS CARDS */
 
-.container {
-  padding: 0;
-}
-
-.skills-cards-box {
-  margin: 0 auto;
-  padding-top: 50px;
-  flex-wrap: wrap;
+.tape-title-box {
+  padding-top: 30px;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1080px;
-}
-
-.skills-title-box {
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
-.skills-cards-title-h2 {
+.tape-cards-title-h2 {
   margin: 0;
   padding: 0;
   color: #161513;
@@ -345,7 +333,7 @@ ul {
   margin-bottom: 18px;
 }
 
-.skills-cards-descr-p2 {
+.tape-cards-descr-p2 {
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
@@ -358,91 +346,89 @@ ul {
   text-transform: uppercase;
 }
 
-.box {
-  flex-direction: row;
+.tape-cards-box {
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
 }
 
-.skills-cards {
+.tape-cards {
   /* margin: 0 auto; */
-  padding: 0;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-right: 30px;
   flex-direction: column;
-  max-width: 512px;
-  /* height: 256px; */
-  /* justify-content: center; */
   align-items: center;
+  justify-content: center;
   border: 1px solid #fff;
   border-radius: 40px;
   box-sizing: border-box; 
   background-color: #f2f1ef;  /*TODO: change background color grey */
-  
+  width: 200px;
 }
 
-.skills-cards:hover {
+.tape-cards:hover {
   background-color: #fff; /*TODO: change background color grey */
   box-shadow: 15px 15px 21px 7px rgba(34, 60, 80, 0.69); 
 }
 
-.skills-cards-title {
+.tape-cards-title {
   margin: 0;
+  margin-bottom: 10px;
   padding: 0;
-  padding-top: 20px;
-  margin-bottom: 20px;
-  height: 44px;
+  padding-top: 10px;
   color: #161513;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
 }
 
-.skills-cards-list {
+.tape-cards-list {
   margin: 0;
   padding: 0;
-  /* height: 256px;
-  width: 256px; */
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
-.skills-cards-item {
+.tape-cards-list {
   margin: 0;
   padding: 0;
-  /* margin-right: 16px; */
-  margin-bottom: 16px;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.tape-cards-item {
+  margin-bottom: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 160px;
   height: 160px;
   border: 1px solid #dadada;
   border-radius: 20px;
   box-sizing: border-box;
-  /* box-shadow: 15px 15px 21px 7px rgba(34, 60, 80, 0.69); */
-  object-fit: cover; 
 }
 
-
-.skills-cards-item:hover {
+.tape-cards-item:hover {
   border: 1px solid #e94d35;
-  box-shadow: 15px 15px 21px 7px rgba(34, 60, 80, 0.69); 
+  /* box-shadow: 15px 15px 5px 7px rgba(34, 60, 80, 0.69);  */
+  /* box-shadow: 5px 5px 8px 0px rgba(34, 60, 80, 0.2); */
+  box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.2);
 }
 
 
-.skills-cards-image {
+.tape-cards-image {
   padding: 0;
   margin: 0;
   width: 64px;
   height: 64px;
 }
 
-.skills-cards-descr {
+.tape-cards-descr {
   margin: 0;
   padding: 0;
   padding-top: 10px;
   font-size: 16px;
   color: #161513;
+  text-transform: uppercase;
 }
 
 /*! Awards */
